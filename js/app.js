@@ -1,5 +1,5 @@
 let url = window.location.href;
-let swDirect = "PWA-U1-01/sw.js"
+let swDirect = "/PWA-U1-01/sw.js"
 
 if(navigator.serviceWorker){
     console.log("Ya se puede usar ")
