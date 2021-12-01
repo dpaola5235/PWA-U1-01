@@ -7,7 +7,7 @@ if(navigator.serviceWorker){
     if(url.includes('localhost')){
         swDirect = '/sw.js';
     }
-    navigator.serviceWorker.register('/sw.js');
+    navigator.serviceWorker.register(swDirect);
 }else{
     console.log("Cambia de navegador")
 }
